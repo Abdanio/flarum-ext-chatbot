@@ -1,23 +1,45 @@
 {
-    "name": "abdanio/flarum-ext-chatbot",
-    "description": "Chatbot AI integration for Flarum",
+    "name": "parchtech/flarum-ext-ai-support",
+    "description": "A Flarum extension to integrate AI chatbot support for productive discussions.",
     "type": "flarum-extension",
+    "keywords": ["flarum", "extension", "ai", "chatbot", "support"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdanio Parchezzi",
+            "email": "cheeksparchezzi@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/parchtech/flarum-ext-ai-support/issues",
+        "source": "https://github.com/parchtech/flarum-ext-ai-support"
+    },
     "require": {
-        "flarum/core": "^1.0"
+        "flarum/core": "^1.0",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "YourName\\Chatbot\\": "src/"
+            "Parchtech\\AISupport\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Chatbot AI",
+            "title": "AI Support",
             "icon": {
                 "name": "fas fa-robot",
                 "backgroundColor": "#4caf50",
-                "color": "#fff"
+                "color": "#ffffff"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/parchtech/flarum-ext-ai-support"
+        }
+    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true
 }
+
