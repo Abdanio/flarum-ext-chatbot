@@ -36,7 +36,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/parchtech/flarum-ext-ai-support"
+            "url": "https://github.com/Abdanio/flarum-ext-chatbot"
         }
     ],
     "minimum-stability": "beta",
