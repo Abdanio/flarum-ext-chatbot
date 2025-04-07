@@ -1,0 +1,13 @@
+flarum-ext-chatbot/
+├── bootstrap.php
+├── extend.php
+├── src/
+│   ├── ChatbotController.php
+│   └── ...
+├── js/
+│   ├── forum/
+│   │   └── index.js
+│   └── admin/
+│       └── index.js
+├── composer.json
+└── LICENSE

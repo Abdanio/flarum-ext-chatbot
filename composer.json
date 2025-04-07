@@ -1,0 +1,23 @@
+{
+    "name": "abdanio/flarum-ext-chatbot",
+    "description": "Chatbot AI integration for Flarum",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourName\\Chatbot\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chatbot AI",
+            "icon": {
+                "name": "fas fa-robot",
+                "backgroundColor": "#4caf50",
+                "color": "#fff"
+            }
+        }
+    }
+}
