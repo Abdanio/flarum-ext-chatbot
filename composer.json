@@ -39,7 +39,7 @@
             "url": "https://github.com/Abdanio/flarum-ext-chatbot"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
 
